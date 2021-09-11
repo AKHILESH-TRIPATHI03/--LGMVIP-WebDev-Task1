@@ -31,7 +31,7 @@ header.sticy {
 header .logo {
   position: relative;
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 2em;
   color: white;
   text-decoration: none;
   left: 1em;
@@ -58,7 +58,7 @@ header.sticy ul li a {
   color: black;
 }
 header ul li a:hover {
-  color: yellow;
+  color: rgb(255, 238, 0);
 }
 
 .slider-box {
@@ -447,6 +447,7 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
+
   /*yha kaam krna bacha hia abhi*/
   /* width: 30vw; */
   /* padding-left: 50%; */
@@ -458,8 +459,7 @@ video {
 }
 .prev,
 .next {
-  color: black;
-  background-color: green;
+  color: rgb(248, 248, 248);
   margin: 20px;
 }
 .next {
@@ -471,7 +471,7 @@ video {
 }
 .search {
   height: 40vh;
-  background: url(wallpaper2.jpg);
+  background: url(two.jpg);
   background-size: cover;
 }
 .btn,
@@ -736,4 +736,17 @@ footer {
 
 .slider .slider-items .item.active {
   display: block;
+}
+
+/*try for making button*/
+.btngap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 60px;
+  background-color: rgba(12, 12, 11, 0.774);
+}
+.btngap:hover {
+  background-color: rgb(84, 23, 124);
 }
